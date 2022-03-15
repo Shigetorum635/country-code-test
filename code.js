@@ -8,7 +8,10 @@ app.use(requestCountry.middleware({
 }));
 
 app.get('/', (req, res) => {
+    console.log(`AHH SEX`)
 	res.send(req.requestCountryCode);
 })
 
-app.listen(3000);
+app.listen(80, () => {
+    console.log(`Hosting on port 80...`)
+});
