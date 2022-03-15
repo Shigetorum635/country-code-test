@@ -2,5 +2,15 @@
   "dependencies": {
     "express": "^4.17.3",
     "request-country": "^0.1.6"
+  },
+  "name": "countries",
+  "version": "1.0.0",
+  "description": "smol country code finder",
+  "main": "code.js",
+  "repository": "https://github.com/Shigetorum635/country-code-test.git",
+  "author": "Shiggy <ilarumbgim1@educacion.navarra.es>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node code.js"
   }
 }
