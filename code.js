@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
 	res.send(req.requestCountryCode);
 })
 
-app.listen(80, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Hosting on port 80...`)
 });
