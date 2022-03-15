@@ -20,6 +20,6 @@ app.get('/', (req, res) => {
     return res.status(200).json({code: country !== false ? country : "None", found: country === false ? false : true})
 })
 
-app.listen(process.env, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`Hosting on port 80...`)
 });
